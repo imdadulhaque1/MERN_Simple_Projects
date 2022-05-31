@@ -16,7 +16,7 @@ const postRoute = require('./api/routers/postRoutes.js');
 
 
 // !:----> Routing Starting
-app.use('/post', postRoute);
+app.use('/posts', postRoute);
 
 
 // TODO:----> Starting MongoDB Database connection & check
